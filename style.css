@@ -7,10 +7,12 @@ html, body {
   background-size: cover;
   overflow: hidden;
 }
-.joke{
-  margin: 15px 20px;
-  color:  #8585f0;
-  font-size: 2rem;
+marquee{
+  color:  #08bbe7;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
 }
 .container{
   display: flex;
@@ -27,7 +29,9 @@ html, body {
   margin-block: 10px;
   width: 50%;
   border-radius: 10px;
-  color: white;
+  color: #e01bee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 21px;
 }
 button{
   padding: 10px;

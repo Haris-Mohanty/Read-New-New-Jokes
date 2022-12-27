@@ -128,9 +128,3 @@ let x = document.querySelector(".box");
 let index = Math.round(Math.random() * jokes.length - 1);
 console.log(index);
 x.innerHTML = jokes[index];
-
-let y = document.getElementsByClassName("joke")[0];
-y.style.color = "red";
-
-let z = document.getElementsByClassName("box")[0];
-z.style.color = "green";
