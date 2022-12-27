@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background:yellow;
+  background-image: url('https://www.whatsappimages.in/wp-content/uploads/2021/05/Funny-Pics-Images-HD-2.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.joke{
+  margin: 15px 20px;
+  color:  #8585f0;
+  font-size: 2rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 10rem;
+  margin-top: 20px;
+  
+}
+.box{
+  padding: 4.5rem 2rem;
+   background:#99c8f4; ;
+  margin-block: 10px;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+}
+button{
+  padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    color: rgb(48, 25, 255);
+    font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+/*   text-transform: uppercase; */
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+background: linear-gradient(90deg, rgb(92, 216, 247) 0%, rgb(225, 158, 249) 100%);
+  border: none;
+  border-radius: 100px;
+  box-shadow: 12px 12px 24px rgba(251, 244, 252, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+button:hover{
+    
+   color: #01070b;
+   transform: translateY(-9px);
+   box-shadow: 0px 1px 12px #24c64f;
+   background: linear-gradient( #6bc9eb, #23D5AB, #e6e8e3);
+   font-size: 25px;
+   letter-spacing: 1.5px;
+}
