@@ -5,6 +5,7 @@ html, body {
   background-image: url('https://www.whatsappimages.in/wp-content/uploads/2021/05/Funny-Pics-Images-HD-2.jpg');
   background-repeat:no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .joke{
   margin: 15px 20px;
@@ -38,7 +39,7 @@ button{
 /*   text-transform: uppercase; */
   letter-spacing: 1.2px;
   font-weight: bolder;
-background: linear-gradient(90deg, rgb(92, 216, 247) 0%, rgb(225, 158, 249) 100%);
+background: linear-gradient(90deg, rgb(92, 216, 247) 0%, rgb(245, 228, 251) 100%);
   border: none;
   border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(251, 244, 252, 0.64);
